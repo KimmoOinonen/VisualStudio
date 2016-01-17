@@ -10,11 +10,18 @@ namespace Teht3
     {
         static void Main(string[] args)
         {
+            int summa, karvo, luku1, luku2, luku3;
             Console.Write("Anna kolme lukua : ");
-            string rivi = Console.ReadLine();
-            int luku1, luku2, luku3;
-            Console.WriteLine("Summa on " + (luku1 + luku2 + luku3));
-            Console.WriteLine("Keskiarvo on ")
+            luku1 = int.Parse(Console.ReadLine());
+            luku2 = int.Parse(Console.ReadLine());
+            luku3 = int.Parse(Console.ReadLine());
+            summa = luku1 + luku2 + luku3;
+            karvo = summa / 3;
+            
+            Console.Write("Summa on " + summa);
+            Console.Write("\nKeskiarvo on " + karvo);
+
+            Console.ReadLine();
         }
     }
 }
