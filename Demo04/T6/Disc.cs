@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace T6
 {
-    class Disc
+    class Disc : Shelf
     {
+        public string DiscType { get; set; }
+        public double Capacity { get; set; }
+
+        public Disc(string itemName, int itemAmount, int shelfNum, string discType, double capacity) 
+            :base(itemName,itemAmount,shelfNum)
+        {
+            DiscType = discType;
+            Capacity = capacity;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + " " + DiscType + " " + Capacity;
+        }
+
     }
 }
