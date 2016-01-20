@@ -22,7 +22,7 @@ namespace T4
             Console.WriteLine("Tyres : " + Tyres);
         }
 
-        // method returns heater data
+        // method returns data
         public override string ToString()
         {
             return "Vehicle : " + Name + " Speed : " + Speed + " Tyres : " +Tyres;
