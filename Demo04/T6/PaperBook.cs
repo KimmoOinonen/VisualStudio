@@ -20,7 +20,7 @@ namespace T6
 
         public override string ToString()
         {
-            return base.ToString() + " " + PaperOrBook + " " + PageNum;
+            return base.ToString() + " Item type : " + PaperOrBook + " Number of pages : " + PageNum;
         }
     }
 }

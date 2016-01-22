@@ -20,7 +20,7 @@ namespace T6
 
         public override string ToString()
         {
-            return base.ToString() + " " + DiscType + " " + Capacity;
+            return base.ToString() + " Type of the disc : " + DiscType + " Disc capacity : " + Capacity + " GB ";
         }
 
     }

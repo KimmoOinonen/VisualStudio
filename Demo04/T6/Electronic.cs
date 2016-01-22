@@ -24,7 +24,7 @@ namespace T6
 
         public override string ToString()
         {
-            return base.ToString() + " " + DeviceType + " " + DeviceScreen + " " + DeviceMemory + " " + DeviceOS;
+            return base.ToString() + " Type of device : " + DeviceType + " Screen size : " + DeviceScreen + " inches " + " Memory size : " + DeviceMemory + " GB " + " Operating system : " + DeviceOS;
         }
     }
 }

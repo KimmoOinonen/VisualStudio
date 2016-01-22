@@ -12,7 +12,7 @@ namespace T6
         public int ItemAmount { get; set; }
         public int ShelfNum { get; set; }
 
-        public Shelf(string itemName, int itemAmount, int shelfNum);
+        public Shelf(string itemName, int itemAmount, int shelfNum)
         {
             ItemName = itemName;
             ItemAmount = itemAmount;
@@ -21,7 +21,7 @@ namespace T6
 
         public override string ToString()
         {
-            return ItemName + " " + ItemAmount + " " + ShelfNum;
+            return "Item name: " + ItemName + " Item amount : " + ItemAmount + " Shelf number : " + ShelfNum;
         }
     }
 }
