@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Copyright (C) Kimmo Oinonen
+ *
+ * This file is part of homework project in Object-Oriented
+ * and GUI Programming class in JAMK.
+ *
+ * Created: 23.1.2016
+ * Author: Kimmo Oinonen
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +19,10 @@ namespace T7
     {
         static void Main(string[] args)
         {
-            Lights light1 = new Lights(true, "Led", 4, 3);
+            Rooms light1 = new Rooms(true, 4, 5, "Led", "Living room");
             Console.WriteLine(light1.ToString());
 
-            Lights light2 = new Lights(false, "Halogen", 60, 2);
+            Rooms light2 = new Rooms(false, 60, 3, "Halogen", "Kitchen");
             Console.WriteLine(light2.ToString());
 
             Console.ReadLine();
